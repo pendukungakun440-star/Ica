@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Hidrolisis Garam</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3e5d8;
+      margin: 0;
+    }
+
+    header {
+      background-color: #5c3a21;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    section {
+      background-color: #fff8f3;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #5c3a21;
+    }
+
+    button {
+      background-color: #8b5e3c;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #3e2616;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    footer {
+      background-color: #5c3a21;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Hidrolisis Garam</h1>
+  <p>Pembelajaran Kimia Interaktif</p>
+</header>
+
+<section>
+  <h2>Pengertian</h2>
+  <p>Hidrolisis garam adalah reaksi antara ion-ion penyusun garam dengan air yang dapat menyebabkan larutan bersifat asam, basa, atau netral.</p>
+</section>
+
+<section>
+  <h2>Jenis-jenis Hidrolisis</h2>
+  <ul>
+    <li>Asam kuat + basa kuat menghasilkan larutan netral (contoh: NaCl)</li>
+    <li>Asam kuat + basa lemah menghasilkan larutan asam (contoh: NH4Cl)</li>
+    <li>Asam lemah + basa kuat menghasilkan larutan basa (contoh: CH3COONa)</li>
+    <li>Asam lemah + basa lemah tergantung kekuatan masing-masing</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Contoh Zat</h2>
+  <ul>
+    <li>NaCl (garam dapur)</li>
+    <li>NH4Cl (amonium klorida)</li>
+    <li>CH3COONa (natrium asetat)</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Kehidupan Sehari-hari</h2>
+  <ul>
+    <li>Penggunaan garam dalam masakan</li>
+    <li>Pupuk yang mengandung garam mineral</li>
+    <li>Produk pembersih rumah tangga</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Contoh Tumbuhan</h2>
+  <p>Tumbuhan menyerap ion garam dari tanah yang dapat mengalami hidrolisis, seperti:</p>
+  <ul>
+    <li>Padi</li>
+    <li>Kakao</li>
+    <li>Jagung</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Soal Interaktif</h2>
+
+  <p>1. Jika NH4Cl dilarutkan dalam air, maka sifat larutannya adalah...</p>
+  <button onclick="jawab1()">Lihat Jawaban</button>
+  <p id="j1" class="hidden">Asam, karena berasal dari basa lemah dan asam kuat.</p>
+
+  <br><br>
+
+  <p>2. Mengapa NaCl tidak mengalami hidrolisis?</p>
+  <button onclick="jawab2()">Lihat Jawaban</button>
+  <p id="j2" class="hidden">Karena berasal dari asam kuat dan basa kuat sehingga bersifat netral.</p>
+
+</section>
+
+<footer>
+  <p>Dibuat oleh: [Mairica Nabila (17)]</p>
+</footer>
+
+<script>
+  function jawab1() {
+    document.getElementById("j1").classList.toggle("hidden");
+  }
+
+  function jawab2() {
+    document.getElementById("j2").classList.toggle("hidden");
+  }
+</script>
+
+</body>
+</html>
